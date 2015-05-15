@@ -1,0 +1,3 @@
+[submodule "src/Orchard.Web/Modules/Ibn"]
+	path = src/Orchard.Web/Modules/Ibn
+	url = https://baruch23@bitbucket.org/baruch23/ibn-orchard-modules.git
