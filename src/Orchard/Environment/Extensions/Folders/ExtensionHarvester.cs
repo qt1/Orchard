@@ -47,9 +47,32 @@ namespace Orchard.Environment.Extensions.Folders {
         public bool DisableMonitoring { get; set; }
 
         public IEnumerable<ExtensionDescriptor> HarvestExtensions(IEnumerable<string> paths, string extensionType, string manifestName, bool manifestIsOptional) {
-            return paths
+            return ExpandPaths(paths, manifestName)
                 .SelectMany(path => HarvestExtensions(path, extensionType, manifestName, manifestIsOptional))
                 .ToList();
+        }
+
+        /// <summary>
+        /// expand list of paths with '*' wild-card
+        /// return only paths that do not directly include the manifest file
+        IEnumerable<string> ExpandPaths(IEnumerable<string> paths, string manifestName)
+        {
+            foreach (string path in paths) {
+                int i = path.IndexOf('*');
+                if (i >= 0) {
+                    string tail = path.Substring(i + 1);
+                    if (tail.StartsWith("/"))
+                        tail = tail.Substring(1); // otherwise Path.Combine will not work properly
+                    foreach (string p in ExpandPaths(_webSiteFolder.ListDirectories(path.Remove(i))
+                            .Select(s => Path.Combine(s, tail))
+                            .Where(p => !_webSiteFolder.FileExists(manifestName))
+                        , manifestName
+                    ))
+                        yield return p;
+                } else {
+                    yield return path; // folder that may contain folders with extensions (should be monitored)
+                }
+            }
         }
 
         private IEnumerable<ExtensionDescriptor> HarvestExtensions(string path, string extensionType, string manifestName, bool manifestIsOptional) {
