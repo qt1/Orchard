@@ -187,3 +187,4 @@ src/Orchard.Web/Modules/Orchard.Azure.MediaServices/node_modules
 
 #enable all /lib artifacts
 !lib/*/*.*
+lib/aspnetmvc/System.Web.Mvc.dll.VisualState.xml
