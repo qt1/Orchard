@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Orchard.Theme.PJS.Bootstrap</id>
+    <version>3.3.4</version>
+    <title>PJS.Bootstrap</title>
+    <authors>Philip Senechal</authors>
+    <owners>Philip Senechal</owners>
+    <projectUrl>http://philipsenechal.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Description for the theme</description>
+  </metadata>
+</package>
