@@ -267,6 +267,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.Base", "Orchard.Web\Ibn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.Tt", "Orchard.Web\Ibn_Modules\Ibn.tt\Ibn.Tt.csproj", "{4D682E1C-162B-45FE-8F88-AC398CEA5A00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ibn_Themes", "Ibn_Themes", "{65DEA36F-DBC6-4C09-9219-02DB3FF7E615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
