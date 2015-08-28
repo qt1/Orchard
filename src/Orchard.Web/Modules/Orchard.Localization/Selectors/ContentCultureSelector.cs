@@ -5,6 +5,7 @@ using Orchard.Alias;
 using Orchard.ContentManagement;
 using Orchard.Environment.Extensions;
 using Orchard.Localization.Services;
+using Orchard.Mvc.Extensions;
 
 namespace Orchard.Localization.Selectors {
     [OrchardFeature("Orchard.Localization.CultureSelector")]
@@ -23,7 +24,7 @@ namespace Orchard.Localization.Selectors {
         }
 
         public CultureSelectorResult GetCulture(HttpContextBase context) {
-            if (context == null || ContextHelpers.IsRequestAdmin(context)) return null;
+            if (context == null || ContextHelpers.IsRequestAdmin(context) || context.IsBackgroundContext()) return null;
 
             // Attempt to determine culture by previous route if by POST
             string path;
