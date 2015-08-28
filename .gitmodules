@@ -4,3 +4,6 @@
 [submodule "src/Orchard.Web/Ibn_Themes"]
 	path = src/Orchard.Web/Ibn_Themes
 	url = https://baruch23@bitbucket.org/baruch23/ibn-orchard_themes.git
+[submodule "src/Orchard.Web/Modules/RM.Localization"]
+	path = src/Orchard.Web/Modules/RM.Localization
+	url = https://github.com/qt1/orchard_contrib-RM.Localization.git
