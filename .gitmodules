@@ -7,3 +7,6 @@
 [submodule "src/Orchard.Web/Modules/RM.Localization"]
 	path = src/Orchard.Web/Modules/RM.Localization
 	url = https://github.com/qt1/orchard_contrib-RM.Localization.git
+[submodule "src/Orchard.Web/Modules/nwazet.commerce"]
+	path = src/Orchard.Web/Modules/nwazet.commerce
+	url = https://baruch23@bitbucket.org/baruch23/nwazet.commerce-git.git
