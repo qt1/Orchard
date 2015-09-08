@@ -272,6 +272,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.StyleUp", "Orchard.Web\Ibn_Modules\Ibn.StyleUp\Ibn.StyleUp.csproj", "{EE2F66B3-39B9-46E4-B938-34954063EBC8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "More_modules", "More_modules", "{87CD7E40-035D-4EEF-9893-6643970CF2DF}"
+	ProjectSection(SolutionItems) = preProject
+		Orchard.Web\Modules\Contrib.Reviews\Contrib.Reviews.csproj = Orchard.Web\Modules\Contrib.Reviews\Contrib.Reviews.csproj
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nwazet.Commerce", "Orchard.Web\Modules\nwazet.commerce\Nwazet.Commerce.csproj", "{909ACC2C-D672-4752-B75B-6822E05FE0E3}"
 EndProject
@@ -289,7 +292,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contrib.Voting", "Orchard.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGM.VoteUpDown", "Orchard.Web\Modules\NGM.VoteUpDown\NGM.VoteUpDown.csproj", "{1393438F-0D7E-43F2-94F4-D41287C516F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleUp", "Orchard.Web\Ibn_Themes\StyleUp\StyleUp.csproj", "{59D2D467-7DAB-41EE-9B7D-DC726F9A10AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contrib.Reviews", "Orchard.Web\Modules\Contrib.Reviews\Contrib.Reviews.csproj", "{F72680EB-12EE-482F-93C8-2F1279E2B710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.StyleUp.Theme", "Orchard.Web\Ibn_Themes\Ibn.StyleUp.Theme\Ibn.StyleUp.Theme.csproj", "{59D2D467-7DAB-41EE-9B7D-DC726F9A10AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1728,6 +1733,26 @@ Global
 		{1393438F-0D7E-43F2-94F4-D41287C516F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1393438F-0D7E-43F2-94F4-D41287C516F9}.Release|x86.ActiveCfg = Release|Any CPU
 		{1393438F-0D7E-43F2-94F4-D41287C516F9}.Release|x86.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.CodeCoverage|x86.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.CodeCoverage|x86.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Coverage|Any CPU.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Coverage|x86.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Coverage|x86.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Debug|x86.Build.0 = Debug|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.FxCop|Any CPU.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.FxCop|x86.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.FxCop|x86.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Release|x86.ActiveCfg = Release|Any CPU
+		{F72680EB-12EE-482F-93C8-2F1279E2B710}.Release|x86.Build.0 = Release|Any CPU
 		{59D2D467-7DAB-41EE-9B7D-DC726F9A10AF}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
 		{59D2D467-7DAB-41EE-9B7D-DC726F9A10AF}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
 		{59D2D467-7DAB-41EE-9B7D-DC726F9A10AF}.CodeCoverage|x86.ActiveCfg = Release|Any CPU
@@ -1842,6 +1867,7 @@ Global
 		{AA604CA0-AF48-4921-BB0B-CDE569CE280B} = {0424964D-9936-456D-8149-3D39E7918C18}
 		{4DA5F35F-E62C-4B49-B5A8-379503257B3A} = {87CD7E40-035D-4EEF-9893-6643970CF2DF}
 		{1393438F-0D7E-43F2-94F4-D41287C516F9} = {87CD7E40-035D-4EEF-9893-6643970CF2DF}
+		{F72680EB-12EE-482F-93C8-2F1279E2B710} = {87CD7E40-035D-4EEF-9893-6643970CF2DF}
 		{59D2D467-7DAB-41EE-9B7D-DC726F9A10AF} = {65DEA36F-DBC6-4C09-9219-02DB3FF7E615}
 	EndGlobalSection
 EndGlobal
