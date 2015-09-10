@@ -255,12 +255,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Layouts", "Orchard.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.DynamicForms", "Orchard.Web\Modules\Orchard.DynamicForms\Orchard.DynamicForms.csproj", "{82190F52-2901-46D6-8A4C-34649959483F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF3909B0-1DDD-4D8A-9919-56FC438E25E2}"
-	ProjectSection(SolutionItems) = preProject
-		Rebracer.xml = Rebracer.xml
-		WebEssentials-Settings.json = WebEssentials-Settings.json
-	EndProjectSection
-EndProject
+
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ibn_Modules", "Ibn_Modules", "{0424964D-9936-456D-8149-3D39E7918C18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.Base", "Orchard.Web\Ibn_Modules\Ibn.Base\Ibn.Base.csproj", "{3028D7AB-C8EA-4922-B798-0EB84919135F}"
@@ -296,6 +291,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contrib.Reviews", "Orchard.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.StyleUp.Theme", "Orchard.Web\Ibn_Themes\Ibn.StyleUp.Theme\Ibn.StyleUp.Theme.csproj", "{59D2D467-7DAB-41EE-9B7D-DC726F9A10AF}"
 EndProject
+
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF3909B0-1DDD-4D8A-9919-56FC438E25E2}"
+	ProjectSection(SolutionItems) = preProject
+		Rebracer.xml = Rebracer.xml
+		WebEssentials-Settings.json = WebEssentials-Settings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gulp", "Gulp", "{90EBEE36-B5CD-42A8-A21B-76270E2C5D24}"
+	ProjectSection(SolutionItems) = preProject
+		Gulpfile.js = Gulpfile.js
+		Package.json = Package.json
+	EndProjectSection
+EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
