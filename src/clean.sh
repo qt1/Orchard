@@ -4,4 +4,7 @@
 rm -rf Orchard.Web/Core/obj Orchard.Web/Themes/obj Orchard.Web/Core/bin Orchard.Web/Themes/bin
 rm -rf Orchard.Web/*/*/{obj,bin}
 rm Orchard.Web/App_Data/Dependencies/*
-rm -rf 'C:\Users\baruch\AppData\Local\Temp\Temporary ASP.NET Files'
+rm Orchard.Web/App_Data/cache.dat
+rm Orchard.Web/App_Data/Sites/*/mappings.bin
+
+rm "$(cygpath $LOCALAPPDATA)/TEMP/Temporary ASP.NET Files"
