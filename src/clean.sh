@@ -7,4 +7,4 @@ rm Orchard.Web/App_Data/Dependencies/*
 rm Orchard.Web/App_Data/cache.dat
 rm Orchard.Web/App_Data/Sites/*/mappings.bin
 
-rm "$(cygpath $LOCALAPPDATA)/TEMP/Temporary ASP.NET Files"
+rm -rf "$(cygpath $LOCALAPPDATA)/TEMP/Temporary ASP.NET Files"
