@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -163,12 +164,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\Sites.config" />
-    <None Include="Web.Debug.config">
+    <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
+    </Content>
+    <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -189,12 +190,12 @@
       <TransformScope>$(_PackageTempDir)\%(DestinationRelativePath)</TransformScope>
       <SubType>Designer</SubType>
     </WebConfigsToTransform>
-    <None Include="Config\log4net.Debug.config">
+    <Content Include="Config\log4net.Debug.config">
       <DependentUpon>log4net.config</DependentUpon>
-    </None>
-    <None Include="Config\log4net.Release.config">
+    </Content>
+    <Content Include="Config\log4net.Release.config">
       <DependentUpon>log4net.config</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <WebConfigsToTransform Include="Config\HostComponents.config">
@@ -208,12 +209,12 @@
       <TransformScope>$(_PackageTempDir)\%(DestinationRelativePath)</TransformScope>
       <SubType>Designer</SubType>
     </WebConfigsToTransform>
-    <None Include="Config\HostComponents.Debug.config">
+    <Content Include="Config\HostComponents.Debug.config">
       <DependentUpon>HostComponents.config</DependentUpon>
-    </None>
-    <None Include="Config\HostComponents.Release.config">
+    </Content>
+    <Content Include="Config\HostComponents.Release.config">
       <DependentUpon>HostComponents.config</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

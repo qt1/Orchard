@@ -13,9 +13,11 @@
     <SourceArtifactFolder>$(ArtifactsFolder)\Source</SourceArtifactFolder>
     <MsDeployArtifactFolder>$(ArtifactsFolder)\MsDeploy</MsDeployArtifactFolder>
     <GalleryArtifactFolder>$(ArtifactsFolder)\Gallery</GalleryArtifactFolder>
-    <ModulesSrcFolder>$(MSBuildProjectDirectory)\src\Orchard.Web\Modules</ModulesSrcFolder>
+    <ModulesSrcFolder>$(MSBuildProjectDirectory)\src\Orchard.Web</ModulesSrcFolder>
+    <!--    <ModulesSrcFolder>$(MSBuildProjectDirectory)\src\Orchard.Web\Modules</ModulesSrcFolder> -->
     <OrchardCoreSrcFolder>$(MSBuildProjectDirectory)\src\Orchard.Web\Core</OrchardCoreSrcFolder>
-    <ThemesSrcFolder>$(MSBuildProjectDirectory)\src\Orchard.Web\Themes</ThemesSrcFolder>
+    <ThemesSrcFolder>$(MSBuildProjectDirectory)\src\Orchard.Web</ThemesSrcFolder>
+    <!--    <ThemesSrcFolder>$(MSBuildProjectDirectory)\src\Orchard.Web\Themes</ThemesSrcFolder> -->
 
     <CompileFolder>$(BuildFolder)\Compile</CompileFolder>
     <WebSitesFolder>$(CompileFolder)\_PublishedWebsites</WebSitesFolder>
