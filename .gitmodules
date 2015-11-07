@@ -16,9 +16,6 @@
 [submodule "src/Orchard.Web/Themes/PJS.Bootstrap"]
 	path = src/Orchard.Web/Themes/PJS.Bootstrap
 	url = https://baruch23@bitbucket.org/baruch23/orchard_gallery-pjs.bootstrap.git
-[submodule "src/Orchard.Web/Modules/Ibn.StyleUp"]
-	path = src/Orchard.Web/Modules/Ibn.StyleUp
-	url = https://baruch23@bitbucket.org/baruch23/ibn-styleup_module.git
 [submodule "src/Orchard.Web/Modules/Szmyd.CodeGeneration"]
 	path = src/Orchard.Web/Modules/Szmyd.CodeGeneration
 	url = https://baruch23@bitbucket.org/baruch23/orchard_gallery-szmyd.codegeneration.git
