@@ -287,6 +287,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightOrgTheme", "Orchard.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJS.Bootstrap", "Orchard.Web\Themes\PJS.Bootstrap\PJS.Bootstrap.csproj", "{579FDECC-52E8-4A6B-88D5-87689BB5C0F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightOrgBootstrapTheme", "Orchard.Web\Ibn_Themes\LightOrgBootstrapTheme\LightOrgBootstrapTheme.csproj", "{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
@@ -1149,6 +1151,16 @@ Global
 		{579FDECC-52E8-4A6B-88D5-87689BB5C0F8}.FxCop|Any CPU.Build.0 = Release|Any CPU
 		{579FDECC-52E8-4A6B-88D5-87689BB5C0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579FDECC-52E8-4A6B-88D5-87689BB5C0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.Coverage|Any CPU.Build.0 = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.FxCop|Any CPU.Build.0 = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1239,5 +1251,6 @@ Global
 		{3587DECE-D391-401F-9360-45FD10903DEC} = {D97F78E8-F985-48CB-818C-141267B04D42}
 		{D0FD2766-084B-4C18-A4A6-7D6D1F425706} = {743AE15C-F4E7-4978-A4E0-B1C3943DE1D5}
 		{579FDECC-52E8-4A6B-88D5-87689BB5C0F8} = {9B9E7D3F-C0BA-4751-9ECD-206B091936E2}
+		{38FC89C5-2EAD-405B-83EC-3B5C98FD1432} = {743AE15C-F4E7-4978-A4E0-B1C3943DE1D5}
 	EndGlobalSection
 EndGlobal
