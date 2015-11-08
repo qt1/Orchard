@@ -20,7 +20,6 @@
     <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <TargetFrameworkProfile />
-    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -190,12 +189,12 @@
       <TransformScope>$(_PackageTempDir)\%(DestinationRelativePath)</TransformScope>
       <SubType>Designer</SubType>
     </WebConfigsToTransform>
-    <Content Include="Config\log4net.Debug.config">
+    <None Include="Config\log4net.Debug.config">
       <DependentUpon>log4net.config</DependentUpon>
-    </Content>
-    <Content Include="Config\log4net.Release.config">
+    </None>
+    <None Include="Config\log4net.Release.config">
       <DependentUpon>log4net.config</DependentUpon>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WebConfigsToTransform Include="Config\HostComponents.config">
@@ -209,12 +208,12 @@
       <TransformScope>$(_PackageTempDir)\%(DestinationRelativePath)</TransformScope>
       <SubType>Designer</SubType>
     </WebConfigsToTransform>
-    <Content Include="Config\HostComponents.Debug.config">
+    <None Include="Config\HostComponents.Debug.config">
       <DependentUpon>HostComponents.config</DependentUpon>
-    </Content>
-    <Content Include="Config\HostComponents.Release.config">
+    </None>
+    <None Include="Config\HostComponents.Release.config">
       <DependentUpon>HostComponents.config</DependentUpon>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
