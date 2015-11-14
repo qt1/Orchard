@@ -189,3 +189,4 @@ src/Orchard.Azure/Orchard.Azure.CloudService/Staging/
 !lib/*/*.*
 */.vs/*
 src/Orchard.Web/Themes/PJS.Bootstrap/
+src/Orchard.Web/Gallery_modules/
