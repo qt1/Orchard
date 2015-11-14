@@ -196,7 +196,7 @@ namespace Orchard.Mvc.ViewEngines.Razor {
             return writer;
         }
 
-        private string _tenantPrefix = null;
+        private string _tenantPrefix;
 
         public override string Href(string path, params object[] pathParts) {
             if (_tenantPrefix == null) {
@@ -207,7 +207,7 @@ namespace Orchard.Mvc.ViewEngines.Razor {
                 && path.StartsWith("~/")  
                 && !CommonLocations.Any(gpp=>path.StartsWith(gpp, StringComparison.OrdinalIgnoreCase))
             ) { 
-                    return base.Href("~/" + _tenantPrefix + path.Substring(2), pathParts);
+                    return base.Href("~/" + _tenantPrefix + path.Substring(_tenantPrefix.EndsWith("/") ? 2 : 1), pathParts);
             }
 
             return base.Href(path, pathParts);
