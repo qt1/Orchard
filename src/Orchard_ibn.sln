@@ -285,6 +285,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.Events", "Orchard.Web\I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightOrgTheme", "Orchard.Web\Ibn_Themes\LightOrgTheme\LightOrgTheme.csproj", "{D0FD2766-084B-4C18-A4A6-7D6D1F425706}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NogginBox.OwnerQueries", "Orchard.Web\Gallery_modules\NogginBox.OwnerQueries\NogginBox.OwnerQueries.csproj", "{96A615CD-7809-4960-8D8A-646A48795FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
@@ -1137,6 +1139,16 @@ Global
 		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.FxCop|Any CPU.Build.0 = Release|Any CPU
 		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.Coverage|Any CPU.Build.0 = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.FxCop|Any CPU.Build.0 = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A615CD-7809-4960-8D8A-646A48795FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1226,5 +1238,6 @@ Global
 		{462D5C3A-2DEE-4A93-94F2-B775AB1B090D} = {D97F78E8-F985-48CB-818C-141267B04D42}
 		{3587DECE-D391-401F-9360-45FD10903DEC} = {D97F78E8-F985-48CB-818C-141267B04D42}
 		{D0FD2766-084B-4C18-A4A6-7D6D1F425706} = {743AE15C-F4E7-4978-A4E0-B1C3943DE1D5}
+		{96A615CD-7809-4960-8D8A-646A48795FAE} = {9B9E7D3F-C0BA-4751-9ECD-206B091936E2}
 	EndGlobalSection
 EndGlobal
