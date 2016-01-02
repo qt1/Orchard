@@ -86,6 +86,9 @@ namespace Orchard.HostContext {
         }
 
         private DirectoryInfo GetOrchardDirectory(string directory) {
+            if (directory.Contains(@"\Tools\Orchard\bin"))
+                directory = (new System.Text.RegularExpressions.Regex(@"\\Tools\\Orchard\\bin.*")).Replace(directory, @"\Orchard.Web");
+
             for (var directoryInfo = new DirectoryInfo(directory); directoryInfo != null; directoryInfo = directoryInfo.Parent) {
                 if (!directoryInfo.Exists) {
                     throw new ApplicationException(string.Format("Directory \"{0}\" does not exist", directoryInfo.FullName));

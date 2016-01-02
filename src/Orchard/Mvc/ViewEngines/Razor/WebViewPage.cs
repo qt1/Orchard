@@ -113,6 +113,9 @@ namespace Orchard.Mvc.ViewEngines.Razor {
             }
         }
 
+        private string[] _commonLocations;
+        public string[] CommonLocations { get { return _commonLocations ?? (_commonLocations = WorkContext.Resolve<ExtensionLocations>().CommonLocations); } } 
+
         public void RegisterImageSet(string imageSet, string style = "", int size = 16) {
             // hack to fake the style "alternate" for now so we don't have to change stylesheet names when this is hooked up
             // todo: (heskew) deal in shapes so we have real alternates 
@@ -194,6 +197,7 @@ namespace Orchard.Mvc.ViewEngines.Razor {
         }
 
         private string _tenantPrefix;
+
         public override string Href(string path, params object[] pathParts) {
             if (path.StartsWith("http://", StringComparison.OrdinalIgnoreCase)
                 || path.StartsWith("https://", StringComparison.OrdinalIgnoreCase)) {
@@ -204,19 +208,20 @@ namespace Orchard.Mvc.ViewEngines.Razor {
                 _tenantPrefix = WorkContext.Resolve<ShellSettings>().RequestUrlPrefix ?? "";
             }
 
-            if (!String.IsNullOrEmpty(_tenantPrefix)) {
-
-                if (path.StartsWith("~/")
-                    && !path.StartsWith("~/Modules", StringComparison.OrdinalIgnoreCase)
-                    && !path.StartsWith("~/Themes", StringComparison.OrdinalIgnoreCase)
-                    && !path.StartsWith("~/Media", StringComparison.OrdinalIgnoreCase)
-                    && !path.StartsWith("~/Core", StringComparison.OrdinalIgnoreCase)) {
-
-                    return base.Href("~/" + _tenantPrefix + path.Substring(String.IsNullOrWhiteSpace(_tenantPrefix) ? 2 : 1), pathParts);
-                }
+            if (!String.IsNullOrEmpty(_tenantPrefix)
+                && path.StartsWith("~/")  
+                && !CommonLocations.Any(gpp=>path.StartsWith(gpp, StringComparison.OrdinalIgnoreCase))
+            ) { 
+                    return base.Href("~/" + _tenantPrefix + path.Substring(_tenantPrefix.EndsWith("/") ? 2 : 1), pathParts);
             }
 
             return base.Href(path, pathParts);
+        }
+
+        // resolve url relative to the current theme 
+        public string Tref(string pathInTheme, params object[] pathParts)
+        {
+            return base.Href(WorkContext.CurrentTheme.VirtualPath + pathInTheme, pathParts);
         }
 
         public IDisposable Capture(Action<IHtmlString> callback) {

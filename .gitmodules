@@ -1,0 +1,21 @@
+[submodule "src/Orchard.Web/Ibn_Modules"]
+	path = src/Orchard.Web/Ibn_Modules
+	url = https://baruch23@bitbucket.org/baruch23/ibn-orchard-modules.git
+[submodule "src/Orchard.Web/Ibn_Themes"]
+	path = src/Orchard.Web/Ibn_Themes
+	url = https://baruch23@bitbucket.org/baruch23/ibn-orchard_themes.git
+[submodule "src/Orchard.Web/Modules/RM.Localization"]
+	path = src/Orchard.Web/Modules/RM.Localization
+	url = https://github.com/qt1/orchard_contrib-RM.Localization.git
+[submodule "src/Orchard.Web/Modules/nwazet.commerce"]
+	path = src/Orchard.Web/Modules/nwazet.commerce
+	url = https://baruch23@bitbucket.org/baruch23/nwazet.commerce-git.git
+[submodule "src/Orchard.Web/Modules/Contrib.Voting"]
+	path = src/Orchard.Web/Modules/Contrib.Voting
+	url = https://baruch23@bitbucket.org/baruch23/orchard_gallery-contrib.voting-git.git
+[submodule "src/Orchard.Web/Themes/PJS.Bootstrap"]
+	path = src/Orchard.Web/Themes/PJS.Bootstrap
+	url = https://baruch23@bitbucket.org/baruch23/orchard_gallery-pjs.bootstrap.git
+[submodule "src/Orchard.Web/Modules/Szmyd.CodeGeneration"]
+	path = src/Orchard.Web/Modules/Szmyd.CodeGeneration
+	url = https://baruch23@bitbucket.org/baruch23/orchard_gallery-szmyd.codegeneration.git
