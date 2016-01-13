@@ -58,10 +58,15 @@ def restore_sql(file, stored_database, target_database):
     print (stored_database)
     print (target_database)
     sql = r"""
-       USE [master]
-       RESTORE DATABASE [%s] FROM  DISK = N'%s' WITH  FILE = 1,  MOVE N'%s' TO N'S:\data\SQL\%s',  MOVE N'Orchard_Srv8_log' TO N'S:\data\SQL\Orchard_Srv8_log.ldf',  NOUNLOAD,  STATS = 5
+        USE [master]
+        ALTER DATABASE [$target_database] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+        RESTORE DATABASE [$target_database] FROM  DISK = N'$file' WITH  FILE = 1,  MOVE N'$stored_database' TO N'S:\data\SQL\$target_database.mdf',  MOVE N'$stored_database_log' TO N'S:\data\SQL\$target_database_log.ldf',  NOUNLOAD,  REPLACE,  STATS = 5
+        ALTER DATABASE [$target_database] SET MULTI_USER
 
-       GO""" % (target_database, file, stored_database, target_database)
+        GO"""
+    sql = sql.replace('$target_database',target_database)
+    sql = sql.replace('$stored_database',stored_database)
+    sql = sql.replace('$file',file)
 
     print(sql)
 
@@ -75,7 +80,7 @@ selected = find_last_backup(pattern)
 print(selected)
 if selected:
     bak_file = extract(selected)
-    restore_sql(bak_file, 'Orchard_Srv8', 'Orchard_Srv8')
+    restore_sql(bak_file, 'Orchard_Srv8', 'lightorg_dev')
     
 
 
