@@ -12,6 +12,7 @@ exp = re.compile(pattern, re.IGNORECASE)
 
 #make sure the backup is synchronized
 
+
 #select the last available backup
 
 
@@ -32,7 +33,7 @@ def find_last_backup(pattern):
 
 #extract from zip and copy to a local folder so sql will not complain
 
-def extract(filename):
+def extract(filename):   
     p = os.path.join(backupdir, filename)
     fh = open(p, 'rb')
     z = zipfile.ZipFile(fh)

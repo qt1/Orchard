@@ -19,3 +19,6 @@
 [submodule "src/Orchard.Web/Modules/Szmyd.CodeGeneration"]
 	path = src/Orchard.Web/Modules/Szmyd.CodeGeneration
 	url = https://baruch23@bitbucket.org/baruch23/orchard_gallery-szmyd.codegeneration.git
+[submodule "deploy-ibn-labs"]
+	path = deploy-ibn-labs
+	url = https://ibnftp@ibn-labs.scm.azurewebsites.net:443/ibn-labs.git
