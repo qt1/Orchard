@@ -188,6 +188,9 @@ src/Orchard.Azure/Orchard.Azure.CloudService/Staging/
 #enable all /lib artifacts
 !lib/**/*.*
 */.vs/*
+src/Rebracer.xml
+
+#IBN specific
 src/Orchard.Web/Themes/PJS.Bootstrap/
 src/Orchard.Web/Gallery_modules/
 src/safe/
