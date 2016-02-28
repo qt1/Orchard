@@ -1,0 +1,217 @@
+Binary file Orchard/bin/Debug/NHibernate.dll matches
+Binary file Orchard/bin/Debug/Orchard.Framework.pdb matches
+Binary file Orchard/obj/Debug/Orchard.Framework.csprojResolveAssemblyReference.cache matches
+Binary file Orchard/obj/Debug/Orchard.Framework.pdb matches
+Orchard/Orchard.Framework.csproj:    <Reference Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard/Orchard.Framework.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Orchard/Orchard.Framework.csproj.orig:    <Reference Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard/Orchard.Framework.csproj.orig:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Core.Tests/bin/Debug/NHibernate.dll matches
+Binary file Orchard.Core.Tests/bin/Debug/Orchard.Framework.pdb matches
+Binary file Orchard.Core.Tests/obj/Debug/Orchard.Core.Tests.csprojResolveAssemblyReference.cache matches
+Orchard.Core.Tests/Orchard.Core.Tests.csproj:    <Reference Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Core.Tests/Orchard.Core.Tests.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Specs/bin/Debug/NHibernate.dll matches
+Binary file Orchard.Specs/bin/Debug/Orchard.Framework.pdb matches
+Binary file Orchard.Specs/obj/Debug/Orchard.Specs.csprojResolveAssemblyReference.cache matches
+Orchard.Specs/Orchard.Specs.csproj:    <Reference Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Specs/Orchard.Specs.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Tests/bin/Debug/NHibernate.dll matches
+Binary file Orchard.Tests/bin/Debug/Orchard.Framework.pdb matches
+Binary file Orchard.Tests/obj/Debug/Orchard.Framework.Tests.csprojResolveAssemblyReference.cache matches
+Orchard.Tests/Orchard.Framework.Tests.csproj:    <Reference Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Tests/Orchard.Framework.Tests.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Tests.Modules/bin/Debug/NHibernate.dll matches
+Binary file Orchard.Tests.Modules/bin/Debug/Orchard.Framework.pdb matches
+Binary file Orchard.Tests.Modules/obj/Debug/Orchard.Tests.Modules.csprojResolveAssemblyReference.cache matches
+Orchard.Tests.Modules/Orchard.Tests.Modules.csproj:    <Reference Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Tests.Modules/Orchard.Tests.Modules.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/bin/NHibernate.dll matches
+Binary file Orchard.Web/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Core/bin/NHibernate.dll matches
+Binary file Orchard.Web/Core/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Core/obj/Debug/Orchard.Core.csprojResolveAssemblyReference.cache matches
+Binary file Orchard.Web/Ibn_Modules/Ibn.Base/bin/NHibernate.dll matches
+Binary file Orchard.Web/Ibn_Modules/Ibn.Base/bin/Orchard.Framework.pdb matches
+Orchard.Web/Ibn_Modules/Ibn.Base/Ibn.Base.csproj:    <Reference Include="FluentNHibernate, Version=1.4.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Web/Ibn_Modules/Ibn.Base/Ibn.Base.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Ibn_Modules/Ibn.Contacts/bin/NHibernate.dll matches
+Binary file Orchard.Web/Ibn_Modules/Ibn.Contacts/bin/Orchard.Framework.pdb matches
+Orchard.Web/Ibn_Modules/Ibn.Contacts/Ibn.Contacts.csproj:    <Reference Include="FluentNHibernate, Version=1.4.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Web/Ibn_Modules/Ibn.Contacts/Ibn.Contacts.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Ibn_Modules/Ibn.Contacts/obj/Debug/Ibn.Contacts.csprojResolveAssemblyReference.cache matches
+Binary file Orchard.Web/Ibn_Modules/Ibn.Events/bin/NHibernate.dll matches
+Binary file Orchard.Web/Ibn_Modules/Ibn.Events/bin/Orchard.Framework.pdb matches
+Orchard.Web/Ibn_Modules/Ibn.Events/Ibn.Events.csproj:    <Reference Include="FluentNHibernate, Version=1.3.0.733, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Binary file Orchard.Web/Ibn_Modules/Ibn.Events/obj/Debug/Ibn.Events.csprojResolveAssemblyReference.cache matches
+Binary file Orchard.Web/Ibn_Modules/Ibn.tt/bin/NHibernate.dll matches
+Binary file Orchard.Web/Ibn_Modules/Ibn.tt/bin/Orchard.Framework.pdb matches
+Orchard.Web/Ibn_Modules/Ibn.tt/Ibn.tt.csproj:    <Reference Include="FluentNHibernate, Version=1.4.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Web/Ibn_Modules/Ibn.tt/Ibn.tt.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Orchard.Web/Ibn_Modules/Ibn.tt/Ibn.tt.csproj_old:    <Reference Include="FluentNHibernate, Version=1.3.0.733, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Web/Ibn_Modules/Ibn.tt/Ibn.tt.csproj_old:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Ibn_Modules/Ibn.tt/obj/Debug/Ibn.Tt.csprojResolveAssemblyReference.cache matches
+Binary file Orchard.Web/Ibn_Themes/LightOrgBootstrapTheme/bin/NHibernate.dll matches
+Binary file Orchard.Web/Ibn_Themes/LightOrgBootstrapTheme/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Ibn_Themes/LightOrgBootstrapTheme/obj/Debug/LightOrgBootstrapTheme.csprojResolveAssemblyReference.cache matches
+Binary file Orchard.Web/Ibn_Themes/LightOrgTheme/bin/NHibernate.dll matches
+Binary file Orchard.Web/Ibn_Themes/LightOrgTheme/bin/Orchard.Framework.pdb matches
+Orchard.Web/Modules/Ibn.StyleUp/Ibn.StyleUp.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/Lucene/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Lucene/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Markdown/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Markdown/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Alias/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Alias/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.AntiSpam/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.AntiSpam/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.ArchiveLater/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.ArchiveLater/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.AuditTrail/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.AuditTrail/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.AuditTrail/obj/Debug/Orchard.AuditTrail.csprojResolveAssemblyReference.cache matches
+Orchard.Web/Modules/Orchard.AuditTrail/Orchard.AuditTrail.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/Orchard.Autoroute/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Autoroute/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Azure/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Azure/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Azure/obj/Debug/Orchard.Azure.csprojResolveAssemblyReference.cache matches
+Binary file Orchard.Web/Modules/Orchard.Azure.MediaServices/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Azure.MediaServices/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Azure.MediaServices/obj/Debug/Orchard.Azure.MediaServices.csprojResolveAssemblyReference.cache matches
+Binary file Orchard.Web/Modules/Orchard.Blogs/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Blogs/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Caching/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Caching/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.CodeGeneration/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.CodeGeneration/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Comments/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Comments/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.ContentPermissions/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.ContentPermissions/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.ContentPicker/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.ContentPicker/bin/Orchard.Framework.pdb matches
+Orchard.Web/Modules/Orchard.ContentPicker/Orchard.ContentPicker.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/Orchard.ContentTypes/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.ContentTypes/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.CustomForms/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.CustomForms/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.DesignerTools/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.DesignerTools/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.DynamicForms/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.DynamicForms/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Email/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Email/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Fields/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Fields/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Forms/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Forms/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.ImageEditor/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.ImageEditor/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.ImportExport/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.ImportExport/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Indexing/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Indexing/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.JobsQueue/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.JobsQueue/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.jQuery/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.jQuery/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Layouts/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Layouts/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Lists/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Lists/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Localization/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Localization/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Media/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Media/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.MediaLibrary/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.MediaLibrary/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.MediaPicker/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.MediaPicker/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.MediaProcessing/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.MediaProcessing/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.MessageBus/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.MessageBus/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.MessageBus/obj/Debug/Orchard.MessageBus.csprojResolveAssemblyReference.cache matches
+Orchard.Web/Modules/Orchard.MessageBus/Orchard.MessageBus.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/Orchard.Migrations/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Migrations/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Modules/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Modules/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.OutputCache/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.OutputCache/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Packaging/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Packaging/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Pages/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Pages/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Projections/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Projections/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Projections/Tests/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Projections/Tests/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Projections/Tests/obj/Debug/Orchard.Projections.Tests.csprojResolveAssemblyReference.cache matches
+Orchard.Web/Modules/Orchard.Projections/Tests/Orchard.Projections.Tests.csproj:    <Reference Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+Orchard.Web/Modules/Orchard.Projections/Tests/Orchard.Projections.Tests.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/Orchard.PublishLater/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.PublishLater/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Recipes/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Recipes/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Redis/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Redis/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Redis/obj/Debug/Orchard.Redis.csprojResolveAssemblyReference.cache matches
+Orchard.Web/Modules/Orchard.Redis/Orchard.Redis.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/Orchard.Roles/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Roles/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Rules/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Rules/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Scripting/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Scripting/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Scripting.CSharp/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Scripting.CSharp/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Scripting.Dlr/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Scripting.Dlr/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Search/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Search/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.SecureSocketsLayer/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.SecureSocketsLayer/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Setup/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Setup/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Tags/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Tags/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Tags/obj/Debug/Orchard.Tags.csprojResolveAssemblyReference.cache matches
+Orchard.Web/Modules/Orchard.Tags/Orchard.Tags.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/Orchard.TaskLease/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.TaskLease/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Taxonomies/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Taxonomies/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Templates/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Templates/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Themes/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Themes/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Tokens/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Tokens/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Tokens/Tests/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Tokens/Tests/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Users/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Users/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Warmup/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Warmup/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Widgets/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Widgets/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Orchard.Workflows/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Orchard.Workflows/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/SysCache/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/SysCache/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/SysCache/obj/Debug/SysCache.csprojResolveAssemblyReference.cache matches
+Orchard.Web/Modules/SysCache/SysCache.csproj:    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Modules/TinyMce/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/TinyMce/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Upgrade/bin/NHibernate.dll matches
+Binary file Orchard.Web/Modules/Upgrade/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Modules/Upgrade/obj/Debug/Upgrade.csprojResolveAssemblyReference.cache matches
+Orchard.Web/Modules/Upgrade/Upgrade.csproj:    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+Binary file Orchard.Web/Themes/bin/NHibernate.dll matches
+Binary file Orchard.Web/Themes/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web/Themes/PJS.Bootstrap/bin/NHibernate.dll matches
+Binary file Orchard.Web/Themes/PJS.Bootstrap/bin/Orchard.Framework.pdb matches
+Binary file Orchard.Web.Tests/bin/Debug/NHibernate.dll matches
+Binary file Orchard.Web.Tests/bin/Debug/Orchard.Framework.pdb matches
