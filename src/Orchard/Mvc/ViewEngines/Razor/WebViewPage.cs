@@ -194,7 +194,7 @@ namespace Orchard.Mvc.ViewEngines.Razor {
                 && path.StartsWith("~/")  
                 && !CommonLocations.Any(gpp=>path.StartsWith(gpp, StringComparison.OrdinalIgnoreCase))
             ) { 
-                    return base.Href("~/" + _tenantPrefix + path.Substring(2), pathParts);
+                    return base.Href("~/" + _tenantPrefix + path.Substring(_tenantPrefix.EndsWith("/") ? 2 : 1), pathParts);
             }
 
             return base.Href(path, pathParts);
