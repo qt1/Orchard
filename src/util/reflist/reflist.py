@@ -12,6 +12,7 @@ matches = []
 refs_by_file = {}
 references = []
 by_name = {}
+xml_trees = {}
 
 ######################################
 
@@ -19,8 +20,10 @@ class Ref:
     ''' a library reference '''
     ''' Include="FluentNHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL" '''
             
-    def __init__(self, file, attrib):
+    def __init__(self, file, element):
         self.file = file
+        self.element = element
+        attrib = element.attrib
         self.attrib = attrib
         include = attrib['Include'];
         w = include.split(',')
@@ -98,7 +101,42 @@ def find_mismatches(n):
 
 ######################################
     
+def fix_references(file):
+    ''' fix outdated attributes and save file '''
+    t = xml_trees[file]
+    for r in refs_by_file[file]:
+        c = by_name[r.name][0]
+        if r.version != c.version:
+#            replace_element(t, r.element, c.element)
+            r.element.clear()
+            r.element.attrib = c.element.attrib
+            copy_children(c.element, t, r.element)
+    t.write(file+".new",method="xml") #,default_namespace="http://schemas.microsoft.com/developer/msbuild/2003")        
 
+def copy_children(src, et, dest):
+    for e in src:
+        dest.append(e)
+#        dd = xml.etree.ElementTree.SubElement(dest, e.tag, e.attrib)
+#        if len(list(e))>0 :
+#            copy_children(e, et, dd)
+
+def find_parent(root, element):
+    if root==element:
+        return element
+    for e in root:
+        p = find_parent(e, element)
+        if p is not None  :
+            return p
+    return None 
+
+def replace_element(tree, old, new):
+    parent = find_parent(tree.getroot(), old)
+    e = xml.etree.ElementTree.fromstring( xml.etree.ElementTree.tostring(new) )
+    parent.insert(0,e)
+
+
+##############################
+    
 for root, dirnames, filenames in os.walk(base_path):
     for filename in fnmatch.filter(filenames, '*.csproj'):
         matches.append(os.path.join(root, filename))
@@ -109,10 +147,13 @@ n=99999
 for p in matches:
     print(p)
     refs_by_file[p] = []
-    t = xml.etree.ElementTree.parse(p).getroot()
-    for e in t.iter('*'):
+    xml.etree.ElementTree.register_namespace('',"http://schemas.microsoft.com/developer/msbuild/2003")
+    t = xml.etree.ElementTree.parse(p)
+    root = t.getroot()
+    xml_trees[p] = t
+    for e in root.iter('*'):
         if e.tag.endswith("Reference"):
-            r = Ref(p,e.attrib)
+            r = Ref(p,e)
             references.append(r)
             refs_by_file[p].append(r)
             if( r.name in by_name ):
@@ -132,9 +173,10 @@ for name in by_name:
     by_name[name].sort(key=lambda r: r.version, reverse=True )
 
 #find outdated    
-for name in by_name:
-    n = by_name[name]
-    find_mismatches(n)
+
+#for name in by_name:
+#    n = by_name[name]
+#    find_mismatches(n)
 
 for file in matches:
     print(file)
@@ -155,6 +197,7 @@ for file in matches:
             #print("outdated %(refname)  " % d)
     if count>0:
         print( "%d refs out of date" % count )
+        fix_references(file)
     else:
         print( " file is up to date! ")
     print("\n\n")
