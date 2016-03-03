@@ -111,6 +111,7 @@ def fix_references(file):
             r.element.clear()
             r.element.attrib = c.element.attrib
             copy_children(c.element, t, r.element)
+    indent(t.getroot())
     t.write(file+".new",method="xml") #,default_namespace="http://schemas.microsoft.com/developer/msbuild/2003")        
 
 def copy_children(src, et, dest):
@@ -134,6 +135,22 @@ def replace_element(tree, old, new):
     e = xml.etree.ElementTree.fromstring( xml.etree.ElementTree.tostring(new) )
     parent.insert(0,e)
 
+def indent(elem, level=0): #
+    i = "\n" + level*"  "
+    j = "\n" + (level-1)*"  "
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "  "
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+        for subelem in elem:
+            indent(subelem, level+1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = j
+    else:
+        if level and (not elem.tail or not elem.tail.strip()):
+            elem.tail = j
+    return elem        
 
 ##############################
     
