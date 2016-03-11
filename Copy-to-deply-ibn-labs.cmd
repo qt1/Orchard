@@ -1,4 +1,4 @@
-xcopy /E build\Precompiled deploy-ibn-labs\
+xcopy /E build\Precompiled ..\orchard_deploy-ibn-labs\
 
 
 pause
