@@ -112,7 +112,7 @@ def fix_references(file):
             r.element.attrib = c.element.attrib
             copy_children(c.element, t, r.element)
     indent(t.getroot())
-    t.write(file+".new",method="xml") #,default_namespace="http://schemas.microsoft.com/developer/msbuild/2003")        
+    t.write(file+".new",method="xml", encoding='utf-8', xml_declaration=True) #,default_namespace="http://schemas.microsoft.com/developer/msbuild/2003")        
 
 def copy_children(src, et, dest):
     for e in src:
