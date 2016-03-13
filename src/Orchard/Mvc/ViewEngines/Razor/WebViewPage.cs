@@ -200,6 +200,13 @@ namespace Orchard.Mvc.ViewEngines.Razor {
             return base.Href(path, pathParts);
         }
 
+        // TBD: move to extension or convince orchard that this is OK
+        // resolve url relative to the current theme 
+        public string Tref(string pathInTheme, params object[] pathParts)
+        {
+            return base.Href(WorkContext.CurrentTheme.VirtualPath + pathInTheme, pathParts);
+        }
+
         public IDisposable Capture(Action<IHtmlString> callback) {
             return new CaptureScope(this, callback);
         }
