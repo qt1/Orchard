@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E9C9F120-07BA-4DFB-B9C3-3AFB9D44C9D5}"
 EndProject
@@ -287,6 +287,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.Mailer", "Orchard.Web\Ibn_Modules\Ibn.Mailer\Ibn.Mailer.csproj", "{C69D506B-F616-4A76-9883-ED6BE10A5072}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ibn.tt", "Orchard.Web\Ibn_Modules\Ibn.tt\Ibn.tt.csproj", "{4D682E1C-162B-45FE-8F88-AC398CEA5A00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ibn_Themes", "Ibn_Themes", "{0289BBED-2E81-47A5-AD0F-3D5856B828CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightOrgTheme", "Orchard.Web\Ibn_Themes\LightOrgTheme\LightOrgTheme.csproj", "{D0FD2766-084B-4C18-A4A6-7D6D1F425706}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -2069,6 +2073,26 @@ Global
 		{4D682E1C-162B-45FE-8F88-AC398CEA5A00}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D682E1C-162B-45FE-8F88-AC398CEA5A00}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D682E1C-162B-45FE-8F88-AC398CEA5A00}.Release|x86.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.CodeCoverage|x86.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.CodeCoverage|x86.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Coverage|Any CPU.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Coverage|x86.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Coverage|x86.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.FxCop|Any CPU.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.FxCop|x86.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.FxCop|x86.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2161,6 +2185,7 @@ Global
 		{3587DECE-D391-401F-9360-45FD10903DEC} = {7F6D2DD8-73D3-4B53-80C2-E280C79AC289}
 		{C69D506B-F616-4A76-9883-ED6BE10A5072} = {7F6D2DD8-73D3-4B53-80C2-E280C79AC289}
 		{4D682E1C-162B-45FE-8F88-AC398CEA5A00} = {7F6D2DD8-73D3-4B53-80C2-E280C79AC289}
+		{D0FD2766-084B-4C18-A4A6-7D6D1F425706} = {0289BBED-2E81-47A5-AD0F-3D5856B828CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
