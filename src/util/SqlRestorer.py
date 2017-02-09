@@ -1,14 +1,14 @@
-import os, re, zipfile, shutil, subprocess 
+import os, re, zipfile, shutil, subprocess , shutil
 
 
 class SqlRestorer:
     """ Restore a database from the last zipped backup """
     #parameters
-    backupdir = 'E:\Backup\srv8\Sql\Backup'
+    backupdir = 'F:\Backup\srv8\Sql\Backup'
     #    pattern = '^Orchard_Srv8'
     tmpbackupdir = 'C:\Data\Sql\Import'
     #    stored_database = 'Orchard_Srv8'
-    #    target_database = 'lightorg_dev'
+    #    target_database = 'lightorg_dev'   
 
     def __init__(self, pattern, stored_database, target_database):
         self.pattern = pattern
@@ -20,12 +20,8 @@ class SqlRestorer:
         self.exp = re.compile(self.pattern, re.IGNORECASE)
 
     #Optionally create a fresh backup
-
     #make sure the backup is synchronized
-
-
     #select the last available backup
-
 
     #restore
 
@@ -37,11 +33,11 @@ class SqlRestorer:
                 candidates.append(f)
                 print(p)
 
-        #select the lexicografic nax - assuming the backup registered the date correctly    
-        return max(candidates)
+        #select the lexicografic max - assuming the backup registered the date correctly    
+        last = max(candidates)
+        return last, os.path.join(self.backupdir, last)
 
     #TBD handle empty selection
-
     #extract from zip and copy to a local folder so sql will not complain
 
     def extract(self, filename):   
@@ -89,10 +85,16 @@ class SqlRestorer:
 
 
     def restore(self):
-        selected = self.find_last_backup()
-        print(selected)
+        selected, full_path = self.find_last_backup()
+        print("Restoring: " + selected)
         if selected:
-            bak_file = self.extract(selected)
+            if selected.endswith(".zip"):
+                bak_file = self.extract(selected)
+            else:
+                ex = os.path.join(self.tmpbackupdir, selected)
+                shutil.copyfile(full_path, ex)
+                bak_file = ex
+                
             self.restore_sql(bak_file, self.stored_database, self.target_database)
         
 ####
