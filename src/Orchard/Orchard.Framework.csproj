@@ -190,12 +190,16 @@
     <Compile Include="Recipes\Models\BuildContext.cs" />
     <Compile Include="Recipes\Services\IRecipeBuilder.cs" />
     <Compile Include="Recipes\Services\IRecipeBuilderStep.cs" />
+    <Compile Include="Recipes\Services\IRecipeBuilderStepResolver.cs" />
     <Compile Include="Recipes\Services\IRecipeExecutionStep.cs" />
+    <Compile Include="Recipes\Services\IRecipeExecutionStepResolver.cs" />
     <Compile Include="Recipes\Services\IRecipeExecutor.cs" />
     <Compile Include="Recipes\Services\IRecipeResultAccessor.cs" />
     <Compile Include="Recipes\Services\RecipeBuilder.cs" />
     <Compile Include="Recipes\Services\RecipeBuilderStep.cs" />
     <Compile Include="Recipes\Models\RecipeExecutionContext.cs" />
+    <Compile Include="Recipes\Services\RecipeExecutionStepResolver.cs" />
+    <Compile Include="Recipes\Services\RecipeBuilderStepResolver.cs" />
     <Compile Include="Recipes\Services\RecipeExecutionLogger.cs" />
     <Compile Include="Recipes\Services\RecipeExecutionStep.cs" />
     <Compile Include="Recipes\Services\RecipeExecutor.cs" />
@@ -933,7 +937,9 @@
     <Compile Include="Mvc\Routes\UrlPrefix.cs" />
     <Compile Include="Mvc\Routes\UrlPrefixAdjustedHttpContext.cs" />
     <Compile Include="Mvc\Routes\ShellRoute.cs" />
-    <Compile Include="Mvc\ViewUserControl.cs" />
+    <Compile Include="Mvc\ViewUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Mvc\Wrappers\HttpContextBaseWrapper.cs" />
     <Compile Include="Mvc\Wrappers\HttpRequestBaseWrapper.cs" />
     <Compile Include="Mvc\Wrappers\HttpResponseBaseWrapper.cs" />
@@ -1013,7 +1019,9 @@
     <Compile Include="UI\Resources\LinkEntry.cs" />
     <Compile Include="UI\Resources\ResourceFilter.cs" />
     <Compile Include="UI\Resources\ResourceManager.cs" />
-    <Compile Include="Mvc\ViewPage.cs" />
+    <Compile Include="Mvc\ViewPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Security\IAuthenticationService.cs" />
     <Compile Include="Security\Authorizer.cs" />
     <Compile Include="Security\Providers\FormsAuthenticationService.cs" />
