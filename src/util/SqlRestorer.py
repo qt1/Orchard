@@ -4,9 +4,11 @@ import os, re, zipfile, shutil, subprocess , shutil
 class SqlRestorer:
     """ Restore a database from the last zipped backup """
     #parameters
-    backupdir = 'F:\Backup\srv8\Sql\Backup'
+    ##backupdir = 'F:\Backup\srv8\Sql\Backup'
+    backupdir = 'Z:\Backup\srv8\Sql\Backup'
     #    pattern = '^Orchard_Srv8'
-    tmpbackupdir = 'C:\Data\Sql\Import'
+    ##tmpbackupdir = 'C:\Data\Sql\Import'
+    tmpbackupdir = 'W:\data\Sql\Import'
     #    stored_database = 'Orchard_Srv8'
     #    target_database = 'lightorg_dev'   
 
